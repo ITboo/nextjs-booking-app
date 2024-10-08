@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import logo from "@/assets/img/logo.svg";
 import { FaUser, FaSignInAlt, FaSignOutAlt, FaBuilding } from "react-icons/fa";
+
+import logo from "@/assets/img/logo.svg";
 
 const Header = () => {
   let isAuthenticated = false;
